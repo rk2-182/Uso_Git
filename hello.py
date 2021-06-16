@@ -17,5 +17,5 @@ git log --oneline: muestra todas las commits en el historial del repositorio
 """)
 print()
 print("----------------Subir archivos desde repositorio local a github------------------------------")
-print("Subir archivo a repositorio github: git remote add origin https://github.com/rk2-182/UsoDeGit.git")
-print("Actualizar archivos en repositorio: git push -u origin main")
+print("Subir archivo a repositorio github: git remote add origin 'nombreRepositorio'")
+print("Actualizar archivos en repositorio: git push -u origin master")

@@ -12,7 +12,9 @@ ej:
 git init : creará un nuevo repositorio local GIT
 git status -s :muestra la lista de los archivos que se han cambiado junto con los archivos que están por ser preparados o confirmados.
 git add . :se usa para agregar archivos al área de preparación
-git commit: creará una instantánea de los cambios y la guardará en el directorio git.
+git commit -m "first commit": creará una instantánea de los cambios y la guardará en el directorio git.
+git remote add origin "direccion del proyecto"
+git push origin master: subit los archivos a github
 git log --oneline: muestra todas las commits en el historial del repositorio
 """)
 print()
